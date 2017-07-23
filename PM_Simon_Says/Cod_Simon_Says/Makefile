@@ -1,0 +1,13 @@
+all: lab0.hex
+
+lab0.hex: lab0.elf
+	avr-objcopy -j .text -j .data -O ihex $^ $@
+	avr-size $^
+
+lab0.elf: lab0.c lcd.c
+	avr-gcc -mmcu=atmega324a -DF_CPU=16000000 -DADC_USE_IRQ -Wall -Wextra -Wl,-u,vfprintf -lprintf_flt -Os -lm -o $@ $^ -lm
+
+clean:
+	rm -rf lab0.hex lab0.elf
+
+.PHONY: all clean

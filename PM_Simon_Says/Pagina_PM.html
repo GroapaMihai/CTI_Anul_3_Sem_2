@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai -->
+<html lang="en" dir="ltr" class="js desktop"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]-->
+    <title>Mihai GROAPĂ (67013) - Memory Game pe Led-uri [PM Wiki]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki">
+<meta name="robots" content="index,follow">
+<meta name="date" content="2017-05-24T03:35:01+0300">
+<meta name="keywords" content="prj2017,rbarbascu,gmihai">
+<link rel="search" type="application/opensearchdescription+xml" href="http://cs.curs.pub.ro/wiki/pm/lib/exe/opensearch.php" title="PM Wiki">
+<link rel="start" href="http://cs.curs.pub.ro/wiki/pm/">
+<link rel="contents" href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=index" title="Sitemap">
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="http://cs.curs.pub.ro/wiki/pm/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="http://cs.curs.pub.ro/wiki/pm/feed.php?mode=list&amp;ns=prj2017:rbarbascu">
+<link rel="alternate" type="text/html" title="Plain HTML" href="http://cs.curs.pub.ro/wiki/pm/_export/xhtml/prj2017/rbarbascu/gmihai">
+<link rel="canonical" href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai">
+<link rel="stylesheet" type="text/css" href="./Pagina_PM_files/css.php">
+<script type="text/javascript">/*<![CDATA[*/var NS='prj2017:rbarbascu';var JSINFO = {"id":"prj2017:rbarbascu:gmihai","namespace":"prj2017:rbarbascu"};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="./Pagina_PM_files/js.php"></script>
+<script type="text/javascript" charset="utf-8" src="./Pagina_PM_files/menu.js.download"></script>
+<script type="text/javascript" charset="utf-8" src="./Pagina_PM_files/indexmenu.js.download"></script>
+<script type="text/javascript" charset="utf-8">/*<![CDATA[*/var indexmenu_ID='prj2017/rbarbascu/gmihai'
+/*!]]>*/</script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="http://cs.curs.pub.ro/wiki/pm/lib/tpl/dokuwiki_modif/images/favicon.ico">
+<link rel="apple-touch-icon" href="http://cs.curs.pub.ro/wiki/pm/lib/tpl/dokuwiki_modif/images/apple-touch-icon.png">
+    <script src="./Pagina_PM_files/nojsindex.js.download" type="text/javascript" charset="utf-8"></script></head>
+
+<body>
+    <!--[if lte IE 7 ]><div id="IE7"><![endif]--><!--[if IE 8 ]><div id="IE8"><![endif]-->
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="dokuwiki site mode_show showSidebar hasSidebar">
+
+
+        <div class="wrapper group">
+        
+<!-- ********** HEADER ********** -->
+<div id="dokuwiki__header"><div class="pad group">
+
+    
+    <div class="headings group">
+        <ul class="a11y skip">
+            <li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#dokuwiki__content">skip to content</a></li>
+        </ul>
+
+        <h1><a href="http://cs.curs.pub.ro/wiki/pm/start" accesskey="h" title="[H]"><img src="./Pagina_PM_files/logo.png" width="1242" height="407" alt=""> </a></h1>
+            </div>
+
+    <div class="tools group">
+        <!-- USER TOOLS -->
+                    <div id="dokuwiki__usertools">
+                <h3 class="a11y">User Tools</h3>
+                <ul>
+                    <li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=login&amp;sectok=548ba47dd12143aa6d5c58b73cdacf72" class="action login" rel="nofollow" title="Login">Login</a></li>                </ul>
+            </div>
+        
+        <!-- SITE TOOLS -->
+        <div id="dokuwiki__sitetools">
+            <h3 class="a11y">Site Tools</h3>
+            <form action="http://cs.curs.pub.ro/wiki/pm/start" accept-charset="utf-8" class="search" id="dw__search" method="get"><div class="no"><input type="hidden" name="do" value="search"><input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]"><input type="submit" value="Search" class="button" title="Search"><div id="qsearch__out" class="ajax_qsearch JSpopup" style="display: none;"></div></div></form>            <div class="mobileTools">
+                <form action="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/doku.php" method="post" accept-charset="utf-8"><div class="no"><input type="hidden" name="id" value="prj2017:rbarbascu:gmihai"><input type="hidden" name="sectok" value="548ba47dd12143aa6d5c58b73cdacf72"><select name="do" class="edit quickselect" title="Tools"><option value="">Tools</option><optgroup label="Page Tools"><option value="revisions">Old revisions</option><option value="backlink">Backlinks</option></optgroup><optgroup label="Site Tools"><option value="recent">Recent changes</option><option value="media">Media Manager</option><option value="index">Sitemap</option></optgroup><optgroup label="User Tools"><option value="login">Login</option></optgroup></select><input type="submit" value="&gt;" style="display: none;"></div></form>            </div>
+            <ul>
+                <li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=recent" class="action recent" accesskey="r" rel="nofollow" title="Recent changes [R]">Recent changes</a></li><li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=media" class="action media" rel="nofollow" title="Media Manager">Media Manager</a></li><li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=index" class="action index" accesskey="x" rel="nofollow" title="Sitemap [X]">Sitemap</a></li>            </ul>
+        </div>
+
+    </div>
+
+    <!-- BREADCRUMBS -->
+            <div class="breadcrumbs">
+                                        <div class="trace"><span class="bchead">Trace:</span> <span class="bcsep">•</span> <a href="http://cs.curs.pub.ro/wiki/pm/start" class="breadcrumbs" title="start">Proiectarea cu Microprocesoare</a> <span class="bcsep">•</span> <a href="http://cs.curs.pub.ro/wiki/pm/prj2017" class="breadcrumbs" title="prj2017">Proiecte PM 2017</a> <span class="bcsep">•</span> <span class="curid"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai" class="breadcrumbs" title="prj2017:rbarbascu:gmihai">Mihai GROAPĂ (67013) - Memory Game pe Led-uri</a></span></div>
+                    </div>
+    
+    
+    <hr class="a11y">
+</div></div><!-- /header -->
+                            <!-- ********** ASIDE ********** -->
+                <div id="dokuwiki__aside"><div class="pad include group">
+                    <h3 class="toggle open" style="cursor: pointer; display: none;"><strong><span>−</span></strong>Sidebar</h3>
+                    <div class="content" style="">
+                                                                        
+<p>
+
+
+
+</p><ul id="navbar">
+
+<li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Administrative</a>
+<ul>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/pm/lab/regulament">Regulament</a></li>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/catalog">Catalog</a></li>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/repartizare">Repartizare laboratoare</a></li>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/pm/lab/planificare">Planificare și orar</a></li>
+
+<li><a href="http://cs.curs.pub.ro/wiki/pm/administrative/echipapm">Echipa PM</a></li>
+</ul>
+</li>
+
+<li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Laboratoare</a>
+
+<p></p>
+<script type="text/javascript" charset="utf-8">
+<!--//--><![CDATA[//><!--
+indexmenu_nojsqueue.push(new Array('indexmenu_7373440245974ba289c29d',''));
+addInitEvent(function(){indexmenu_loadJs(DOKU_BASE+'lib/plugins/indexmenu/nojsindex.js');});
+//--><!]]>
+</script>
+
+<div id="nojs_indexmenu_7373440245974ba289c29d" class="indexmenu_nojs">
+
+<ul class="idx">
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/lab0" class="wikilink1" title="lab:lab0">Laboratorul 0: Aplicații introductive</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/lab1" class="wikilink1" title="lab:lab1">Laboratorul 1: USART, LCD</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/lab2" class="wikilink1" title="lab:lab2">Laboratorul 2: Întreruperi, Timere</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/lab3" class="wikilink1" title="lab:lab3">Laboratorul 3: Timere, Pulse Width Modulation (PWM)</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/lab4" class="wikilink1" title="lab:lab4">Laboratorul 4: SPI, FAT Filesystem, Player Audio</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/lab5" class="wikilink1" title="lab:lab5">(Old) Laboratorul 5: Webserver</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/lab6" class="wikilink1" title="lab:lab6">Laboratorul 5: Convertorul analog-digital. LCD grafic</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/lab/zold" class="wikilink1" title="lab:zold">Arhivă Laboratoare 2009</a></div></li>
+</ul>
+</div>
+
+<p>
+
+</p></li>
+
+
+<li>
+<a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Proiecte</a>
+<ul>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/halloffame">Hall of Fame (proiecte bune)</a></li>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/roomofinspiration">Room of Inspiration (idei proiecte)</a></li>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2017">Cablaj PM 2017</a></li>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/workflow">Workflow Proiect</a></li>
+<li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017">Pagina de proiecte 2017</a></li>
+
+
+</ul>
+
+</li>
+<li>
+<a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Fișiere</a>
+<ul>
+
+<li><a class="media mediafile mf_pdf" href="http://cs.curs.pub.ro/wiki/pm/_media/doc8272.pdf">Datasheet ATmega324A
+</a></li>
+<li><a class="media mediafile mf_zip" href="http://cs.curs.pub.ro/wiki/pm/_media/bootloader_2015.zip">Bootloader USB
+</a></li>
+<li><a class="media mediafile mf_pdf" href="http://cs.curs.pub.ro/wiki/pm/_media/placa_lab.pdf">Schema placă laborator
+</a></li>
+<!--<li><a class="media mediafile mf_zip" href="/wiki/pm/_media/test2012.zip">Program de test (neactualizat încă)
+</a></li>-->
+
+</ul>
+
+</li>
+
+<li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Tutoriale</a>
+
+<p></p>
+<script type="text/javascript" charset="utf-8">
+<!--//--><![CDATA[//><!--
+indexmenu_nojsqueue.push(new Array('indexmenu_1292449105974ba28aab63',''));
+addInitEvent(function(){indexmenu_loadJs(DOKU_BASE+'lib/plugins/indexmenu/nojsindex.js');});
+//--><!]]>
+</script>
+
+<div id="nojs_indexmenu_1292449105974ba28aab63" class="indexmenu_nojs">
+
+<ul class="idx">
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/biti" class="wikilink1" title="tutorial:biti">Lucrul cu registrele la nivel de bit</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/bootloader" class="wikilink1" title="tutorial:bootloader">Ghid folosire Bootloader USB</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/corodat" class="wikilink1" title="tutorial:corodat">Ghid realizare plăcuțe cablate pentru montaje (clorură ferică)</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/datasheet" class="wikilink1" title="tutorial:datasheet">Ghid folosire datasheet</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/isp" class="wikilink1" title="tutorial:isp">Programarea cu ISP și AVR Studio</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/placa" class="wikilink1" title="tutorial:placa">Etape realizare plăcuța de baza Proiect PM</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/placute" class="wikilink1" title="tutorial:placute">Recomandări Proiect</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/tutorial/proiect" class="wikilink1" title="tutorial:proiect">Ghid proiect etapa 2</a></div></li>
+</ul>
+</div>
+
+<p>
+
+</p></li>
+
+<li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Cablaje</a>
+
+<p></p>
+<script type="text/javascript" charset="utf-8">
+<!--//--><![CDATA[//><!--
+indexmenu_nojsqueue.push(new Array('indexmenu_13699515495974ba28b96c1',''));
+addInitEvent(function(){indexmenu_loadJs(DOKU_BASE+'lib/plugins/indexmenu/nojsindex.js');});
+//--><!]]>
+</script>
+
+<div id="nojs_indexmenu_13699515495974ba28b96c1" class="indexmenu_nojs">
+
+<ul class="idx">
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2009" class="wikilink1" title="cablaj:proiect2009">Cablaj imprimat 2009</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2010" class="wikilink1" title="cablaj:proiect2010">Cablaj imprimat 2010</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2011" class="wikilink1" title="cablaj:proiect2011">Cablaj imprimat 2011</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2012" class="wikilink1" title="cablaj:proiect2012">Cablaj imprimat 2012</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2013" class="wikilink1" title="cablaj:proiect2013">Cablaj imprimat 2013</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2014" class="wikilink1" title="cablaj:proiect2014">Cablaj imprimat 2014</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2015" class="wikilink1" title="cablaj:proiect2015">Cablaj imprimat 2015</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2016" class="wikilink1" title="cablaj:proiect2016">Cablaj imprimat 2016</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2017" class="wikilink1" title="cablaj:proiect2017">Cablaj imprimat 2017</a></div></li>
+</ul>
+</div>
+
+<p>
+
+</p></li>
+
+<li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Galerie Foto</a>
+
+<p></p>
+<script type="text/javascript" charset="utf-8">
+<!--//--><![CDATA[//><!--
+indexmenu_nojsqueue.push(new Array('indexmenu_11685906985974ba28c0add',''));
+addInitEvent(function(){indexmenu_loadJs(DOKU_BASE+'lib/plugins/indexmenu/nojsindex.js');});
+//--><!]]>
+</script>
+
+<div id="nojs_indexmenu_11685906985974ba28c0add" class="indexmenu_nojs">
+
+<ul class="idx">
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/poze/lf2010" class="wikilink1" title="poze:lf2010">Concurs line-followeri 2010</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/poze/plac2009" class="wikilink1" title="poze:plac2009">Plăcuțiada 2009</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/poze/plac2010" class="wikilink1" title="poze:plac2010">Plăcuțiada 2010</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/poze/plac2011" class="wikilink1" title="poze:plac2011">Plăcuțiada 2011</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/poze/plac2012" class="wikilink1" title="poze:plac2012">Plăcuțiada 2012</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/poze/prj2010" class="wikilink1" title="poze:prj2010">Câteva proiecte din 2010</a></div></li>
+</ul>
+</div>
+
+<p>
+
+</p></li>
+
+<li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#">Galileo Tutorials</a>
+
+<p></p>
+<script type="text/javascript" charset="utf-8">
+<!--//--><![CDATA[//><!--
+indexmenu_nojsqueue.push(new Array('indexmenu_12233851585974ba28c6a9e',''));
+addInitEvent(function(){indexmenu_loadJs(DOKU_BASE+'lib/plugins/indexmenu/nojsindex.js');});
+//--><!]]>
+</script>
+
+<div id="nojs_indexmenu_12233851585974ba28c6a9e" class="indexmenu_nojs">
+
+<ul class="idx">
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/galileo/1" class="wikilink1" title="galileo:1">Introduction to microcontrollers, Arduino and Galileo</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/galileo/2" class="wikilink1" title="galileo:2">Working within the Galileo environment</a></div></li>
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/galileo/3" class="wikilink1" title="galileo:3">An Actual Galileo application: An EKG Device</a></div></li>
+</ul>
+</div>
+
+<p>
+
+</p></li>
+
+</ul>
+
+
+<p></p>
+                                            </div>
+                </div></div><!-- /aside -->
+            
+		<!-- *** GOOGLE PLUS BADGE *** -->		
+		<div class="publicity">
+		<!-- Upon seeing this code you will curse and say "this person certainly did not know web programming", and I will answer
+			"No, I do not, I just got the job done."  -->
+		<table><tbody><tr><td>
+<a href="http://plus.google.com/117332356720320941050?prsrc=3" rel="publisher" style="text-decoration:none;">
+<img src="./Pagina_PM_files/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"></a>
+		</td><td>
+<a href="http://www.youtube.com/channel/UCQT5n-4wznr64LlxzIvoeKQ?feature=creators_cornier-%2F%2Fs.ytimg.com%2Fyt%2Fimg%2Fcreators_corner%2FYouTube%2Fyoutube_32x32.png"><img src="./Pagina_PM_files/youtube_32x32.png" alt="Subscribe to me on YouTube"></a><img src="./Pagina_PM_files/gen_204" style="display: none">
+		</td></tr></tbody></table>
+		</div>
+
+
+
+
+            <!-- ********** CONTENT ********** -->
+            <div id="dokuwiki__content"><div class="pad group">
+
+<!--                <div class="pageId"><span>prj2017:rbarbascu:gmihai</span></div> -->
+
+                <div class="page group" style="min-height: 83px;">
+                                                            <!-- wikipage start -->
+                    <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle open" style="cursor: pointer;"><strong><span>−</span></strong>Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#mihai-groapa-67013-memory-game-pe-led-uri">Mihai GROAPĂ (67013) - Memory Game pe Led-uri</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#introducere">Introducere</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#descriere-generala">Descriere generală</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#hardware-design">Hardware Design</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#software-design">Software Design</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#rezultate-obtinute">Rezultate Obţinute</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#concluzii">Concluzii</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#download">Download</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#jurnal">Jurnal</a></div></li>
+<li class="level2"><div class="li"><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#bibliografieresurse">Bibliografie/Resurse</a></div></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="mihai-groapa-67013-memory-game-pe-led-uri">Mihai GROAPĂ (67013) - Memory Game pe Led-uri</h1>
+<div class="level1">
+
+<p>
+Autorul poate fi contactat la adresa:   <strong>Login pentru adresa</strong>
+</p>
+
+<p></p>
+
+</div>
+
+<h2 class="sectionedit2" id="introducere">Introducere</h2>
+<div class="level2">
+
+<p>
+Proiectul presupune implementarea jocului “Simon Says”. Scopul jocului este redarea intocmai a unor secvente de aprindere de led-uri, care devin din ce in ce mai lungi. Lungimea secventei este egala cu numarul rundei si la fiecare runda noua, jucatorul trebuie sa reproduca secventa de la nivelul anterior, la care se adauga o secventa noua, de lungime 1, specifica nivelului curent. Daca jucatorul reuseste sa refaca in totalitate secventa, trece la nivelul urmator, altfel jocul se opreste.
+</p>
+
+<p>
+M-am gandit la acest joc deoarece este unul foarte popular si consider ca antreneaza atentia, capacitatea de concentrare si dezvolta memoria.
+Acest joc este util pentru cei care doresc sa se relaxeze si sa isi imbunatateasca memoria totodata, si de asemenea poate fi jucat impreuna cu alti jucatori, pentru a vedea cine este cel care reuseste sa refaca un pattern cat mai lung.
+</p>
+
+<p>
+Pentru implementare o sa folosesc 8 led-uri, 8 butoane prin care pot fi aprinse, un difuzor prin care va fi redata gama DO major, fiecare nota fiind asociata aprinderii unui led. De asemenea buzzerul va reda o scurta melodie pentru incheierea jocului. Jocul va fi insotit si de un ecran LCD pe care vor fi afisate informatii privind starea: mesaj de incepere joc, afisare nivel curent si un mesaj la sfarsitul jocului.
+</p>
+
+</div>
+
+<h2 class="sectionedit3" id="descriere-generala">Descriere generală</h2>
+<div class="level2">
+
+<p>
+<strong>Schema bloc</strong>
+</p>
+
+<p>
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/untitled_diagram_1_.png?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:untitled_diagram_1_.png"><img src="./Pagina_PM_files/untitled_diagram_1_.png" class="mediacenter" alt="" width="750"></a>
+</p>
+
+</div>
+
+<h2 class="sectionedit4" id="hardware-design">Hardware Design</h2>
+<div class="level2">
+
+<p>
+<strong>Lista componente</strong>
+</p>
+
+<p>
+- placa de baza + componente obligatorii<br>
+
+- 1 cablaj de test 120×170 mm<br>
+
+- 8 butoane 6x6x6<br>
+
+- 8 leduri RGB cu catod comun<br>
+
+- 1 buzzer Activ de 3 V<br>
+
+- 1 modul LCD 1602 cu backlight albastru de 5 V<br>
+
+- 8 rezistente de 1 kΩ pentru leduri<br>
+
+- 2 rezistente de 10 kΩ pentru butoane si LCD<br>
+
+- pini (foarte multi)<br>
+
+- 30 fire de legatura de tip mama-mama<br>
+
+</p>
+<hr>
+
+<p>
+<strong>TOTAL : ≈120 de lei</strong> (am cumparat multe lucruri pe care nu le-am mai folosit si de rezerva)
+</p>
+
+<p>
+<strong>Schema electrica</strong><br>
+
+<br>
+
+<a href="http://cs.curs.pub.ro/wiki/pm/_media/prj2017/rbarbascu/schema_electrica.sch" class="media mediafile mf_sch" title="prj2017:rbarbascu:schema_electrica.sch">schema_electrica.sch</a><br>
+
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/gropita_sch.jpg?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:gropita_sch.jpg"><img src="./Pagina_PM_files/gropita_sch.jpg" class="mediacenter" alt=""></a>
+</p>
+
+</div>
+
+<h2 class="sectionedit5" id="software-design">Software Design</h2>
+<div class="level2">
+
+<p>
+<strong>Programe folosite</strong><br>
+
+</p>
+<ol>
+<li class="level1"><div class="li"> Eagle 8.2.0 - circuitul electric</div>
+</li>
+<li class="level1"><div class="li"> Programer's Notepad</div>
+</li>
+<li class="level1"><div class="li"> WinAvr20100110 - compilare</div>
+</li>
+<li class="level1"><div class="li"> BootloadHID CLI - incarcarea codului pe placuta</div>
+</li>
+</ol>
+
+<p>
+<strong>Implementare</strong><br>
+
+Jocul se poate desfasura pe parcursul a maximum 100 de nivele. Folosesc un vector in care salvez la fiecare runda noul buton de apasat. Dupa ce controler-ul termina de afisat secventa specifica nivelului, jucatorul poate incepe sa o introduca. Pe masura ce apasa butoanele, verific corectitudinea si in cazul unei greseli pornesc melodia de sfarsit de joc, aprind toate led-urile, blochez intrarile si afisez pe LCD un mesaj de felicitare urmat de nivelul atins. Daca secventa a fost introdusa corect, trec la nivelul urmator.<br>
+
+<br>
+
+1. initializez seed-ul pentru functia random (din pacate nu se poate folosi time, motiv pentru care secventa va fi mereu acceasi :( );<br>
+
+2. setez pinii protului B ca intrari (pentru butoane), cei ai portului A, C si pinul D5 (buzzer-ul) ca iesiri;<br>
+
+3. initializez timer-ul pentru buzzer si pornesc LCD-ul;<br>
+
+4. timp de maxim 100 de runde fac urmatoarele:<br>
+
+5a. afisez pe LCD numarul rundei;<br>
+
+5b. aprind toate led-urile tip de o secunda la inceputul fiecarei runde;<br>
+
+5c. obtin indexul unui led nou, random, si il adaug la secventa actuala;<br>
+
+5d. aprind timp de 500ms fiecare led din secventa curenta;<br>
+
+5e. astept ca user-ul sa introduca secventa prin apasarea butoanelor;<br>
+
+5f. daca se greseste secventa, afisez mesajul de incheiere pe lcd, redau pe buzzer o melodie si alternez aprinderea-stingerea tuturor becurilor pana in moentul cand se va incepe un joc nou;<br>
+
+5g. in cazul in care s-a introdus o secventa corect, revin la pasul 5c.<br>
+
+</p>
+
+<p>
+<strong>Probleme intampinate</strong><br>
+
+Principala problema a fost legata de faptul ca am uitat ca buzzer-ul trebuie legat la un pin PWM si am pierdut mult timp din cauza asta.<br>
+
+De asemenea nu am stiut ca pinii PD2 si PD3 sunt folositi pentru luminarea becurilor de pe placa de baza (legasem LCD acolo si nu puteam
+folosi a doua linie).<br>
+
+Nu am reusit sa redau o melodie “buna” la sfarsit de joc, efectiv nu gasesc un exemplu in care sa am perechi de forma : frecventa_nota_muzicala, durata pentru o melodie cap-coada, am inventat eu una formata din 4 note dar suna rau → 0:59 video.<br>
+
+</p>
+
+</div>
+
+<h2 class="sectionedit6" id="rezultate-obtinute">Rezultate Obţinute</h2>
+<div class="level2">
+
+<p>
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/gro2.jpg?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:gro2.jpg"><img src="./Pagina_PM_files/gro2.jpg" class="media" alt="" width="350"></a>
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/gro7.jpg?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:gro7.jpg"><img src="./Pagina_PM_files/gro7.jpg" class="media" alt="" width="350"></a>
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/gro5.jpg?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:gro5.jpg"><img src="./Pagina_PM_files/gro5.jpg" class="media" alt="" width="350"></a><br>
+
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/gro4.jpg?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:gro4.jpg"><img src="./Pagina_PM_files/gro4.jpg" class="media" alt="" width="350"></a>
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/gro3.jpg?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:gro3.jpg"><img src="./Pagina_PM_files/gro3.jpg" class="media" alt="" width="350"></a>
+<a href="http://cs.curs.pub.ro/wiki/pm/_detail/prj2017/rbarbascu/gro6.jpg?id=prj2017%3Arbarbascu%3Agmihai" class="media" title="prj2017:rbarbascu:gro6.jpg"><img src="./Pagina_PM_files/gro6.jpg" class="media" alt="" width="350"></a>
+</p>
+
+<p>
+Video cu functionalitatile proiectului: <a href="https://www.youtube.com/watch?v=uuFwxHM5hlw" class="urlextern" title="https://www.youtube.com/watch?v=uuFwxHM5hlw" rel="nofollow">https://www.youtube.com/watch?v=uuFwxHM5hlw</a><br>
+
+
+</p><div style="text-align:center">
+<iframe src="./Pagina_PM_files/uuFwxHM5hlw.html" width="800" height="600"></iframe>
+</div>
+
+<p></p>
+
+</div>
+
+<h2 class="sectionedit7" id="concluzii">Concluzii</h2>
+<div class="level2">
+
+<p>
+A fost un proiect destul de simplu dpdv software, cu destul de mult lucru la nivel “hardware” (destul de mult de lipit). A fost o experienta placuta, o tema la care chiar am lucrat cu placere si fara presiune si pe viitor am de gand sa incerc si lucruri mai complicate cu micro-controlere (de data asta am vrut sa merg la sigur).
+</p>
+
+</div>
+
+<h2 class="sectionedit8" id="download">Download</h2>
+<div class="level2">
+
+<p>
+Arhiva cu codul:<br>
+
+<a href="http://cs.curs.pub.ro/wiki/pm/_media/prj2017/rbarbascu/simonsaysgro.zip" class="media mediafile mf_zip" title="prj2017:rbarbascu:simonsaysgro.zip">simonsaysgro.zip</a><br>
+
+</p>
+
+<p>
+Schema electrica:<br>
+
+<a href="http://cs.curs.pub.ro/wiki/pm/_media/prj2017/rbarbascu/schema_electrica.sch" class="media mediafile mf_sch" title="prj2017:rbarbascu:schema_electrica.sch">schema_electrica.sch</a>
+</p>
+
+</div>
+
+<h2 class="sectionedit9" id="jurnal">Jurnal</h2>
+<div class="level2">
+
+<p>
+21.04.17 - Creare pagina wiki<br>
+
+21.04.17 - Adaugare schema bloc<br>
+
+21.04.17 - Adăugare componente hardware<br>
+
+01.05.17 - Finalizare placa de baza<br>
+
+05.05.17 - Adaugare scheme electrice<br>
+
+18.05.17 - Finalizare lipire componente pe placa de test<br>
+
+23.05.17 - Finalizare implementare software<br>
+
+24.05.17 - Finalizare completare pagina de Wiki
+</p>
+
+</div>
+
+<h2 class="sectionedit10" id="bibliografieresurse">Bibliografie/Resurse</h2>
+<div class="level2">
+
+<p>
+<strong>Resurse Software</strong><br>
+
+<br>
+
+Eagle<br>
+
+<a href="https://www.autodesk.com/products/eagle/overview" class="urlextern" title="https://www.autodesk.com/products/eagle/overview" rel="nofollow">https://www.autodesk.com/products/eagle/overview</a><br>
+
+<br>
+
+AVR Atmel<br>
+
+<a href="http://www.atmel.com/tools/atmelstudio.aspx" class="urlextern" title="http://www.atmel.com/tools/atmelstudio.aspx" rel="nofollow">http://www.atmel.com/tools/atmelstudio.aspx</a><br>
+
+<br>
+
+WinAVR la pachet cu Programmer's Notepad<br>
+
+<a href="https://sourceforge.net/projects/winavr/files/" class="urlextern" title="https://sourceforge.net/projects/winavr/files/" rel="nofollow">https://sourceforge.net/projects/winavr/files/</a><br>
+
+<br>
+
+Schema placii de baza<br>
+
+<a href="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2017" class="urlextern" title="http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2017" rel="nofollow">http://cs.curs.pub.ro/wiki/pm/cablaj/proiect2017</a>
+</p>
+
+<p>
+<strong>Resurse Hardware</strong><br>
+
+<br>
+
+<a href="https://www.optimusdigital.ro/" class="urlextern" title="https://www.optimusdigital.ro" rel="nofollow">https://www.optimusdigital.ro</a><br>
+
+<a href="http://www.conexelectronic.ro/" class="urlextern" title="http://www.conexelectronic.ro" rel="nofollow">http://www.conexelectronic.ro</a>
+</p>
+<ul>
+<li class="level1"><div class="li"> Documentația în format <a class="media mediafile mf_pdf" href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=export_pdf">PDF</a></div>
+</li>
+</ul>
+
+</div>
+
+                    <!-- wikipage stop -->
+                                    </div>
+
+                <div class="docInfo">prj2017/rbarbascu/gmihai.txt · Last modified: 2017/05/24 03:35 by <a href="mailto:mihai%20[dot]%20groapa%20[at]%20stud%20[dot]%20acs%20[dot]%20upb%20[dot]%20ro">mihai [dot] groapa [at] stud [dot] acs [dot] upb [dot] ro</a></div>
+
+                            </div></div><!-- /content -->
+
+            <hr class="a11y">
+
+            <!-- PAGE ACTIONS -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Page Tools</h3>
+                <div class="tools">
+                    <ul>
+                        <li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=revisions" class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]"><span>Old revisions</span></a></li><li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai?do=backlink" class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="http://cs.curs.pub.ro/wiki/pm/prj2017/rbarbascu/gmihai#dokuwiki__top" class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>                    </ul>
+                </div>
+            </div>
+        </div><!-- /wrapper -->
+
+        
+<!-- ********** FOOTER ********** -->
+<div id="dokuwiki__footer"><div class="pad">
+    <div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license" class="urlextern">CC Attribution-Noncommercial-Share Alike 3.0 Unported</a></div>
+    <div class="buttons">
+        <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license"><img src="./Pagina_PM_files/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 3.0 Unported"></a>        <a href="http://www.dokuwiki.org/donate" title="Donate"><img src="./Pagina_PM_files/button-donate.gif" width="80" height="15" alt="Donate"></a>
+        <a href="http://www.php.net/" title="Powered by PHP"><img src="./Pagina_PM_files/button-php.gif" width="80" height="15" alt="Powered by PHP"></a>
+        <a href="http://validator.w3.org/check/referer" title="Valid HTML5"><img src="./Pagina_PM_files/button-html5.png" width="80" height="15" alt="Valid HTML5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS"><img src="./Pagina_PM_files/button-css.png" width="80" height="15" alt="Valid CSS"></a>
+        <a href="http://dokuwiki.org/" title="Driven by DokuWiki"><img src="./Pagina_PM_files/button-dw.png" width="80" height="15" alt="Driven by DokuWiki"></a>
+    </div>
+</div></div><!-- /footer -->
+
+    </div></div><!-- /site -->
+
+    <div class="no"><img src="./Pagina_PM_files/indexer.php" width="2" height="1" alt=""></div>
+    <div id="screen__mode" class="no"></div>    <!--[if ( lte IE 7 | IE 8 ) ]></div><![endif]-->
+
+
+
+</body></html>
